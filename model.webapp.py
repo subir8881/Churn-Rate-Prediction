@@ -1,5 +1,6 @@
 import streamlit as st
 import pickle
+import numpy as np
 
 
 log_model=pickle.load(open('https://github.com/subir8881/FIRST-DEPLOYMENT/blob/f2811167a7eadb9ecc680c3de564134d803f1c02/log_model.pkl','rb'))
