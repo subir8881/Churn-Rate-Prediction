@@ -1,4 +1,3 @@
-import statsmodels.sandbox.predict_functional
 import streamlit as st
 import pickle
 
