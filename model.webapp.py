@@ -2,8 +2,8 @@ import streamlit as st
 import pickle
 import numpy as np
 
-
-log_model=pickle.load(open('www.github.com//subir8881/FIRST-DEPLOYMENT/log_model.pkl','rb'))
+from urllib.request import urlopen  
+log_model= cp.load(urlopen("https://github.com/subir8881/FIRST-DEPLOYMENT/log_model.pkl', 'rb')) 
 
 
 def classify(num):
