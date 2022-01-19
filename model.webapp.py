@@ -1,8 +1,6 @@
 import streamlit as st
 import pickle
 
-from DEPLOYMENT.TRY_4.model import log_reg
-
 NB_model = pickle.load(open('log_reg.pkl', 'rb'))
 
 
