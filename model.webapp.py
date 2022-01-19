@@ -31,7 +31,7 @@ def main(hl=None):
     inputs = [[hl, lt, WN, wn, ad, ch, ba]]
     if st.button('Classify'):
         if option == 'Logistic Regression':
-            st.success(classify(log_reg.predict(inputs)))
+            st.success(classify(log_model.predict(inputs)))
 
 
 if __name__ == '__main__':
