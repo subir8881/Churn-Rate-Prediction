@@ -33,6 +33,8 @@ def main(hl=None):
     if st.button('Classify'):
         if option == 'Logistic Regression':
             st.success(classify(log_reg.predict(inputs)))
+        else:
+            return 'none'    
 
 
 if __name__ == '__main__':
