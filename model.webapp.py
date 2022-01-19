@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 
 
-log_model = pickle.load(open('log_model.pkl', 'rb'))
+log_model=pickle.load(open('log_model.pkl', 'rb'))
 
 
 def classify(num):
