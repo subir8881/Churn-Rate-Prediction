@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 from urllib.request import urlopen  
-log_model= cp.load(urlopen('https://github.com/subir8881/FIRST-DEPLOYMENT/log_model.pkl', 'rb'))
+log_model= cp.load(urlopen("https://github.com/subir8881/FIRST-DEPLOYMENT/blob/08c04a51a391834ff62c29f751dd29d56ce3497b/log_model.pkl", 'rb'))
 
 
 def classify(num):
